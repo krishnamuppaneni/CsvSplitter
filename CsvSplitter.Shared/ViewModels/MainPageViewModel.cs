@@ -1,11 +1,8 @@
 ﻿using CsvSplitter.Shared;
+using Microsoft.UI.Xaml.Controls;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
-using Windows.UI.Xaml.Controls;
 
 namespace CsvSplitter.ViewModels
 {

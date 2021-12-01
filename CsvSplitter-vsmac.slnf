@@ -1,0 +1,18 @@
+{
+  "solution": {
+    "path": "CsvSplitter.sln",
+    "projects": [
+		"CsvSplitter.Shared\\CsvSplitter.Shared.shproj",
+
+		"CsvSplitter.Droid\\CsvSplitter.Droid.csproj",
+
+		"CsvSplitter.iOS\\CsvSplitter.iOS.csproj",
+
+		"CsvSplitter.Wasm\\CsvSplitter.Wasm.csproj",
+
+		"CsvSplitter.macOS\\CsvSplitter.macOS.csproj",
+
+		"CsvSplitter.Skia.Gtk\\CsvSplitter.Skia.Gtk.csproj",
+    ]
+  }
+}
