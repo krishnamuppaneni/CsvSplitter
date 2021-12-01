@@ -15,4 +15,7 @@
     <UpToDateCheckInput Include="..\CsvSplitter.Shared\**\*.xaml" />
   </ItemGroup>
   <Import Project="..\CsvSplitter.Shared\CsvSplitter.Shared.projitems" Label="Shared" />
+  <ItemGroup>
+    <_Globbed_Compile Remove="..\CsvSplitter.Shared\Converters\IntToStringConverter.cs" />
+  </ItemGroup>
 </Project>
