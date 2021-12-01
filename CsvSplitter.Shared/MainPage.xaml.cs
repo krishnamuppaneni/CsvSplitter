@@ -56,14 +56,6 @@ namespace CsvSplitter
             }
         }
 
-        private void RecordNumberBox_ValueChanged(object sender, NumberBoxValueChangedEventArgs e)
-        {
-            if (double.IsNaN(e.NewValue))
-            {
-                (sender as NumberBox).Value = 0;
-            }
-        }
-
         private async void ExcuteBtn_Click(object sender, RoutedEventArgs e)
         {
             await ViewModel.Execute(pickedFile, pickedFolder);
