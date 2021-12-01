@@ -74,6 +74,9 @@
     <PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.0.7" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+    <PackageReference Include="CsvHelper">
+      <Version>27.2.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="..\CsvSplitter.Shared\CsvSplitter.Shared.projitems" Label="Shared" />
   <ItemGroup>

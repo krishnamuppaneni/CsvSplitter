@@ -54,8 +54,6 @@ namespace CsvSplitter
                 // this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
-            ApplicationView.PreferredLaunchViewSize = new Size(800, 350);
-            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
 
 #if NET5_0 && WINDOWS
             _window = new Window();
