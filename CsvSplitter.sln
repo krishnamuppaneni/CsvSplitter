@@ -4,17 +4,18 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CsvSplitter.Shared", "CsvSplitter.Shared\CsvSplitter.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CsvSplitter.WPF", "CsvSplitter.WPF\CsvSplitter.WPF.csproj", "{5CC7202D-847A-4DD5-A6A9-0C1F93CC3DCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvSplitter.WPF", "CsvSplitter.WPF\CsvSplitter.WPF.csproj", "{5CC7202D-847A-4DD5-A6A9-0C1F93CC3DCA}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CsvSplitter.Wpf.Host", "CsvSplitter.WPF.Host\CsvSplitter.Wpf.Host.csproj", "{C45F9E9D-09C4-4561-95D1-999344F36CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvSplitter.Wpf.Host", "CsvSplitter.WPF.Host\CsvSplitter.Wpf.Host.csproj", "{C45F9E9D-09C4-4561-95D1-999344F36CFA}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CsvSplitter.Installer", "CsvSplitter.Installer\CsvSplitter.Installer.vdproj", "{8BC332AB-447E-436E-AF57-CCAE638005E9}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CsvSplitter.Installer", "CsvSplitter.Installer\CsvSplitter.Installer.vdproj", "{8BC332AB-447E-436E-AF57-CCAE638005E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvSplitter.macOS", "CsvSplitter.macOS\CsvSplitter.macOS.csproj", "{1D1B5267-CECC-4099-A16C-F758E5C652B3}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		CsvSplitter.Shared\CsvSplitter.Shared.projitems*{3763f493-0d44-4629-80e3-6aa55c66e7d2}*SharedItemsImports = 5
+		CsvSplitter.Shared\CsvSplitter.Shared.projitems*{1d1b5267-cecc-4099-a16c-f758e5c652b3}*SharedItemsImports = 4
+		CsvSplitter.Shared\CsvSplitter.Shared.projitems*{5cc7202d-847a-4dd5-a6a9-0c1f93cc3dca}*SharedItemsImports = 5
 		CsvSplitter.Shared\CsvSplitter.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
