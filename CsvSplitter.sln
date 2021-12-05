@@ -4,9 +4,11 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CsvSplitter.Shared", "CsvSplitter.Shared\CsvSplitter.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvSplitter.Skia.WPF", "CsvSplitter.Skia.WPF\CsvSplitter.Skia.WPF.csproj", "{3763F493-0D44-4629-80E3-6AA55C66E7D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvSplitter.WPF", "CsvSplitter.WPF\CsvSplitter.WPF.csproj", "{3763F493-0D44-4629-80E3-6AA55C66E7D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvSplitter.Skia.Wpf.Host", "CsvSplitter.Skia.WPF.Host\CsvSplitter.Skia.Wpf.Host.csproj", "{6CF284A4-22B1-4F05-97F4-F095C07A598E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvSplitter.Wpf.Host", "CsvSplitter.WPF.Host\CsvSplitter.Wpf.Host.csproj", "{6CF284A4-22B1-4F05-97F4-F095C07A598E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CsvSplitter.Installer", "CsvSplitter.Installer\CsvSplitter.Installer.vdproj", "{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -98,6 +100,20 @@ Global
 		{6CF284A4-22B1-4F05-97F4-F095C07A598E}.Release|x64.Build.0 = Release|Any CPU
 		{6CF284A4-22B1-4F05-97F4-F095C07A598E}.Release|x86.ActiveCfg = Release|Any CPU
 		{6CF284A4-22B1-4F05-97F4-F095C07A598E}.Release|x86.Build.0 = Release|Any CPU
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Debug|Any CPU.ActiveCfg = Debug
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Debug|ARM.ActiveCfg = Debug
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Debug|ARM64.ActiveCfg = Debug
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Debug|iPhone.ActiveCfg = Debug
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Debug|iPhoneSimulator.ActiveCfg = Debug
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Debug|x64.ActiveCfg = Debug
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Debug|x86.ActiveCfg = Debug
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Release|Any CPU.ActiveCfg = Release
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Release|ARM.ActiveCfg = Release
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Release|ARM64.ActiveCfg = Release
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Release|iPhone.ActiveCfg = Release
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Release|iPhoneSimulator.ActiveCfg = Release
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Release|x64.ActiveCfg = Release
+		{E4F273C2-B8B8-43CE-B131-2816EC5CE3E5}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
