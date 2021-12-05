@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>CsvSplitter.macOS</string>
+	<string>CsvSplitter</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.CsvSplitter-macOS</string>
+	<string>com.techcryptic.CsvSplitter</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -19,9 +19,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
-	<string>????</string>
+	<string></string>
 	<key>NSHumanReadableCopyright</key>
-	<string>${AuthorCopyright:HtmlEncode}</string>
+	<string></string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>XSAppIconAssets</key>

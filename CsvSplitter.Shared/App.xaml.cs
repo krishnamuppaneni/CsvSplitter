@@ -54,7 +54,7 @@ namespace CsvSplitter
                 // this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
-
+            
 #if NET5_0 && WINDOWS
             _window = new Window();
             _window.Activate();
@@ -96,6 +96,12 @@ namespace CsvSplitter
                 // Ensure the current window is active
                 _window.Activate();
             }
+
+#if __MACOS__
+            var size = new Size(800, 300);
+            ApplicationView.GetForCurrentView().SetPreferredMinSize(size);
+            ApplicationView.GetForCurrentView().TryResizeView(size);
+#endif
         }
 
         /// <summary>
