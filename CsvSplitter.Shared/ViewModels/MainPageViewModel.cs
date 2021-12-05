@@ -1,4 +1,5 @@
 ﻿using CsvSplitter.Shared;
+using Microsoft.UI.Xaml.Controls;
 using System;
 using System.ComponentModel;
 using System.Threading.Tasks;
@@ -134,14 +135,31 @@ namespace CsvSplitter.ViewModels
 
                 IsExecuting = false;
 
+#if HAS_UNO_SKIA_WPF
+                var dialog = new ContentDialog()
+                {                    
+                    Content = message,
+                    CloseButtonText = "OK"
+                };               
+#else
                 var dialog = new MessageDialog(message);
+#endif
                 await dialog.ShowAsync();                
             }
             catch (Exception ex)
             {
                 IsExecuting = false;
 
+#if HAS_UNO_SKIA_WPF
+                var dialog = new ContentDialog()
+                {
+                    Title = "Error",
+                    Content = ex.Message,
+                    CloseButtonText = "OK"
+                };
+#else
                 var dialog = new MessageDialog(ex.Message, "Error");
+#endif
                 await dialog.ShowAsync();
             }
         }
