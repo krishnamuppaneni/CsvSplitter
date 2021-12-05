@@ -1,8 +1,8 @@
 ﻿using CsvSplitter.Shared;
-using Microsoft.UI.Xaml.Controls;
 using System;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using Windows.UI.Popups;
 
 namespace CsvSplitter.ViewModels
 {
@@ -132,26 +132,16 @@ namespace CsvSplitter.ViewModels
                     : $"The CSV file is not split since the number of records in the file is not greater than {RecordNumber:N0}";
                 }
 
-                var dialog = new ContentDialog()
-                {
-                    Title = "CSV Splitter",
-                    Content = message,
-                    CloseButtonText = "Ok"
-                };
-
                 IsExecuting = false;
-                await dialog.ShowAsync();
+
+                var dialog = new MessageDialog(message);
+                await dialog.ShowAsync();                
             }
             catch (Exception ex)
             {
-                var dialog = new ContentDialog()
-                {
-                    Title = "Error",
-                    Content = ex.Message,
-                    CloseButtonText = "Ok"
-                };
-
                 IsExecuting = false;
+
+                var dialog = new MessageDialog(ex.Message, "Error");
                 await dialog.ShowAsync();
             }
         }
