@@ -4,6 +4,7 @@
     <OutputType Condition="'$(Configuration)'=='Debug'">WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\split.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Uno.WinUI.Skia.Wpf" Version="4.0.7" />
@@ -12,6 +13,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Fonts\uno-fluentui-assets.ttf" />
+    <Content Include="Assets\split.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CsvSplitter.Skia.WPF\CsvSplitter.Skia.WPF.csproj" />
